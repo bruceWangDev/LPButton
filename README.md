@@ -2,13 +2,12 @@
 一款使用 frame 来设置图片和文字的按钮，适配约束和各种复杂布局。
 包含设置按钮中图片和文字的间距，以及按钮整体内间距的功能。
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/LCActionSheet.svg)](http://cocoadocs.org/docsets/LCActionSheet)
-[![CocoaPods](https://img.shields.io/cocoapods/l/LCActionSheet.svg)](https://raw.githubusercontent.com/iTofu/LCActionSheet/master/LICENSE)
-[![CocoaPods](https://img.shields.io/cocoapods/p/LCActionSheet.svg)](http://cocoadocs.org/docsets/LCActionSheet)
-[![Laguage](https://img.shields.io/badge/language-ObjC%20%26%20Swift-orange.svg)](https://github.com/iTofu/LCActionSheet)
-[![CocoaPods](https://img.shields.io/cocoapods/dt/LCActionSheet.svg)](https://cocoapods.org/pods/LCActionSheet)
-[![LeoDev](https://img.shields.io/badge/blog-LeoDev.me-brightgreen.svg)](https://leodev.me)
-[![GitHub stars](https://img.shields.io/github/stars/iTofu/LCActionSheet.svg?style=social&label=Star)](https://github.com/iTofu/LCActionSheet)
+[![Build Status](https://travis-ci.org/bruceWangDev/LPButton.svg?branch=master)](https://travis-ci.org/bruceWangDev/LPButton)
+[![CocoaPods](https://img.shields.io/cocoapods/v/LPButton.svg)](http://cocoadocs.org/docsets/LPButton)
+[![CocoaPods](https://img.shields.io/cocoapods/l/LPButton.svg)](https://github.com/bruceWangDev/LPButton/blob/master/LICENSE)
+[![CocoaPods](https://img.shields.io/cocoapods/p/LPButton.svg)](http://cocoadocs.org/docsets/LPButton)
+![CocoaPods](https://img.shields.io/cocoapods/dt/LPButton.svg)
+[![GitHub stars](https://img.shields.io/github/stars/bruceWangDev/LPButton.svg?style=social&label=Star)](https://github.com/bruceWangDev/LPButton)
 
 
 ## 示例图:

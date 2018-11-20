@@ -3,7 +3,7 @@ language: objective-c
 osx_image: xcode10
 
 script:
-    - xcodebuild -workspace LPButtonDemo.xcworkspace -scheme LPButton -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - xcodebuild -workspace LPButtonDemo.xcworkspace -scheme LPButtonDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
 
 

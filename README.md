@@ -6,7 +6,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/LPButton.svg)](http://cocoadocs.org/docsets/LPButton)
 [![CocoaPods](https://img.shields.io/cocoapods/l/LPButton.svg)](https://github.com/bruceWangDev/LPButton/blob/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/p/LPButton.svg)](http://cocoadocs.org/docsets/LPButton)
-![CocoaPods](https://img.shields.io/cocoapods/dt/LPButton.svg)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/LPButton.svg)](https://cocoapods.org/pods/LPButton)
 [![GitHub stars](https://img.shields.io/github/stars/bruceWangDev/LPButton.svg?style=social&label=Star)](https://github.com/bruceWangDev/LPButton)
 
 

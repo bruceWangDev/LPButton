@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70950D6121A2995F00B2E679 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70950D6021A2995F00B2E679 /* AppDelegate.m */; };
+		70950D6421A2995F00B2E679 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70950D6321A2995F00B2E679 /* ViewController.m */; };
+		70950D6721A2995F00B2E679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70950D6521A2995F00B2E679 /* Main.storyboard */; };
+		70950D6921A2996000B2E679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70950D6821A2996000B2E679 /* Assets.xcassets */; };
+		70950D6C21A2996000B2E679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70950D6A21A2996000B2E679 /* LaunchScreen.storyboard */; };
+		70950D6F21A2996000B2E679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70950D6E21A2996000B2E679 /* main.m */; };
+		70950D7921A2996100B2E679 /* LPButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70950D7821A2996100B2E679 /* LPButtonDemoTests.m */; };
+		70950D8421A2996100B2E679 /* LPButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70950D8321A2996100B2E679 /* LPButtonDemoUITests.m */; };
+		70950D9721A299E200B2E679 /* LPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70950D9621A299E200B2E679 /* LPButton.m */; };
+		9D4336665E3705A6DF05CD7D /* libPods-LPButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D337634239A5B7EE96BC7D /* libPods-LPButtonDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70950D7521A2996100B2E679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70950D5421A2995F00B2E679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70950D5B21A2995F00B2E679;
+			remoteInfo = LPButtonDemo;
+		};
+		70950D8021A2996100B2E679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70950D5421A2995F00B2E679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70950D5B21A2995F00B2E679;
+			remoteInfo = LPButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7C9C2568535D15885BAA0D /* Pods-LPButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LPButtonDemo/Pods-LPButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70950D5C21A2995F00B2E679 /* LPButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70950D5F21A2995F00B2E679 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70950D6021A2995F00B2E679 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70950D6221A2995F00B2E679 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70950D6321A2995F00B2E679 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70950D6621A2995F00B2E679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70950D6821A2996000B2E679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70950D6B21A2996000B2E679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70950D6D21A2996000B2E679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70950D6E21A2996000B2E679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70950D7421A2996100B2E679 /* LPButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70950D7821A2996100B2E679 /* LPButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPButtonDemoTests.m; sourceTree = "<group>"; };
+		70950D7A21A2996100B2E679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70950D7F21A2996100B2E679 /* LPButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70950D8321A2996100B2E679 /* LPButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPButtonDemoUITests.m; sourceTree = "<group>"; };
+		70950D8521A2996100B2E679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70950D9521A299E200B2E679 /* LPButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPButton.h; sourceTree = "<group>"; };
+		70950D9621A299E200B2E679 /* LPButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPButton.m; sourceTree = "<group>"; };
+		C5D337634239A5B7EE96BC7D /* libPods-LPButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LPButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8BC6B7D0C7C353AD39AFFE /* Pods-LPButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPButtonDemo/Pods-LPButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70950D5921A2995F00B2E679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4336665E3705A6DF05CD7D /* libPods-LPButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70950D7121A2996100B2E679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70950D7C21A2996100B2E679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7916FF4429DA56F08A995B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C9C2568535D15885BAA0D /* Pods-LPButtonDemo.debug.xcconfig */,
+				FF8BC6B7D0C7C353AD39AFFE /* Pods-LPButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70950D5321A2995F00B2E679 = {
+			isa = PBXGroup;
+			children = (
+				70950D5E21A2995F00B2E679 /* LPButtonDemo */,
+				70950D7721A2996100B2E679 /* LPButtonDemoTests */,
+				70950D8221A2996100B2E679 /* LPButtonDemoUITests */,
+				70950D5D21A2995F00B2E679 /* Products */,
+				5D7916FF4429DA56F08A995B /* Pods */,
+				875BED84CAD2FDBEF0C463E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70950D5D21A2995F00B2E679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70950D5C21A2995F00B2E679 /* LPButtonDemo.app */,
+				70950D7421A2996100B2E679 /* LPButtonDemoTests.xctest */,
+				70950D7F21A2996100B2E679 /* LPButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70950D5E21A2995F00B2E679 /* LPButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70950D9421A299CC00B2E679 /* LPButton */,
+				70950D5F21A2995F00B2E679 /* AppDelegate.h */,
+				70950D6021A2995F00B2E679 /* AppDelegate.m */,
+				70950D6221A2995F00B2E679 /* ViewController.h */,
+				70950D6321A2995F00B2E679 /* ViewController.m */,
+				70950D6521A2995F00B2E679 /* Main.storyboard */,
+				70950D6821A2996000B2E679 /* Assets.xcassets */,
+				70950D6A21A2996000B2E679 /* LaunchScreen.storyboard */,
+				70950D6D21A2996000B2E679 /* Info.plist */,
+				70950D6E21A2996000B2E679 /* main.m */,
+			);
+			path = LPButtonDemo;
+			sourceTree = "<group>";
+		};
+		70950D7721A2996100B2E679 /* LPButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				70950D7821A2996100B2E679 /* LPButtonDemoTests.m */,
+				70950D7A21A2996100B2E679 /* Info.plist */,
+			);
+			path = LPButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		70950D8221A2996100B2E679 /* LPButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70950D8321A2996100B2E679 /* LPButtonDemoUITests.m */,
+				70950D8521A2996100B2E679 /* Info.plist */,
+			);
+			path = LPButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		70950D9421A299CC00B2E679 /* LPButton */ = {
+			isa = PBXGroup;
+			children = (
+				70950D9521A299E200B2E679 /* LPButton.h */,
+				70950D9621A299E200B2E679 /* LPButton.m */,
+			);
+			path = LPButton;
+			sourceTree = "<group>";
+		};
+		875BED84CAD2FDBEF0C463E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D337634239A5B7EE96BC7D /* libPods-LPButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70950D5B21A2995F00B2E679 /* LPButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70950D8821A2996100B2E679 /* Build configuration list for PBXNativeTarget "LPButtonDemo" */;
+			buildPhases = (
+				A3BDB1BC5939487DAE830F7D /* [CP] Check Pods Manifest.lock */,
+				70950D5821A2995F00B2E679 /* Sources */,
+				70950D5921A2995F00B2E679 /* Frameworks */,
+				70950D5A21A2995F00B2E679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPButtonDemo;
+			productName = LPButtonDemo;
+			productReference = 70950D5C21A2995F00B2E679 /* LPButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70950D7321A2996100B2E679 /* LPButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70950D8B21A2996100B2E679 /* Build configuration list for PBXNativeTarget "LPButtonDemoTests" */;
+			buildPhases = (
+				70950D7021A2996100B2E679 /* Sources */,
+				70950D7121A2996100B2E679 /* Frameworks */,
+				70950D7221A2996100B2E679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70950D7621A2996100B2E679 /* PBXTargetDependency */,
+			);
+			name = LPButtonDemoTests;
+			productName = LPButtonDemoTests;
+			productReference = 70950D7421A2996100B2E679 /* LPButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70950D7E21A2996100B2E679 /* LPButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70950D8E21A2996100B2E679 /* Build configuration list for PBXNativeTarget "LPButtonDemoUITests" */;
+			buildPhases = (
+				70950D7B21A2996100B2E679 /* Sources */,
+				70950D7C21A2996100B2E679 /* Frameworks */,
+				70950D7D21A2996100B2E679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70950D8121A2996100B2E679 /* PBXTargetDependency */,
+			);
+			name = LPButtonDemoUITests;
+			productName = LPButtonDemoUITests;
+			productReference = 70950D7F21A2996100B2E679 /* LPButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70950D5421A2995F00B2E679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = brucewang;
+				TargetAttributes = {
+					70950D5B21A2995F00B2E679 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					70950D7321A2996100B2E679 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 70950D5B21A2995F00B2E679;
+					};
+					70950D7E21A2996100B2E679 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 70950D5B21A2995F00B2E679;
+					};
+				};
+			};
+			buildConfigurationList = 70950D5721A2995F00B2E679 /* Build configuration list for PBXProject "LPButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70950D5321A2995F00B2E679;
+			productRefGroup = 70950D5D21A2995F00B2E679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70950D5B21A2995F00B2E679 /* LPButtonDemo */,
+				70950D7321A2996100B2E679 /* LPButtonDemoTests */,
+				70950D7E21A2996100B2E679 /* LPButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70950D5A21A2995F00B2E679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70950D6C21A2996000B2E679 /* LaunchScreen.storyboard in Resources */,
+				70950D6921A2996000B2E679 /* Assets.xcassets in Resources */,
+				70950D6721A2995F00B2E679 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70950D7221A2996100B2E679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70950D7D21A2996100B2E679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3BDB1BC5939487DAE830F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LPButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70950D5821A2995F00B2E679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70950D6421A2995F00B2E679 /* ViewController.m in Sources */,
+				70950D9721A299E200B2E679 /* LPButton.m in Sources */,
+				70950D6F21A2996000B2E679 /* main.m in Sources */,
+				70950D6121A2995F00B2E679 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70950D7021A2996100B2E679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70950D7921A2996100B2E679 /* LPButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70950D7B21A2996100B2E679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70950D8421A2996100B2E679 /* LPButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70950D7621A2996100B2E679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70950D5B21A2995F00B2E679 /* LPButtonDemo */;
+			targetProxy = 70950D7521A2996100B2E679 /* PBXContainerItemProxy */;
+		};
+		70950D8121A2996100B2E679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70950D5B21A2995F00B2E679 /* LPButtonDemo */;
+			targetProxy = 70950D8021A2996100B2E679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70950D6521A2995F00B2E679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70950D6621A2995F00B2E679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70950D6A21A2996000B2E679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70950D6B21A2996000B2E679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70950D8621A2996100B2E679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70950D8721A2996100B2E679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70950D8921A2996100B2E679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7C9C2568535D15885BAA0D /* Pods-LPButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 333F9LS74S;
+				INFOPLIST_FILE = LPButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.compass.LPButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70950D8A21A2996100B2E679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8BC6B7D0C7C353AD39AFFE /* Pods-LPButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 333F9LS74S;
+				INFOPLIST_FILE = LPButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.compass.LPButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70950D8C21A2996100B2E679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LPButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.compass.LPButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPButtonDemo.app/LPButtonDemo";
+			};
+			name = Debug;
+		};
+		70950D8D21A2996100B2E679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LPButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.compass.LPButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPButtonDemo.app/LPButtonDemo";
+			};
+			name = Release;
+		};
+		70950D8F21A2996100B2E679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LPButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.compass.LPButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LPButtonDemo;
+			};
+			name = Debug;
+		};
+		70950D9021A2996100B2E679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LPButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.compass.LPButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LPButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70950D5721A2995F00B2E679 /* Build configuration list for PBXProject "LPButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70950D8621A2996100B2E679 /* Debug */,
+				70950D8721A2996100B2E679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70950D8821A2996100B2E679 /* Build configuration list for PBXNativeTarget "LPButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70950D8921A2996100B2E679 /* Debug */,
+				70950D8A21A2996100B2E679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70950D8B21A2996100B2E679 /* Build configuration list for PBXNativeTarget "LPButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70950D8C21A2996100B2E679 /* Debug */,
+				70950D8D21A2996100B2E679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70950D8E21A2996100B2E679 /* Build configuration list for PBXNativeTarget "LPButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70950D8F21A2996100B2E679 /* Debug */,
+				70950D9021A2996100B2E679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70950D5421A2995F00B2E679 /* Project object */;
+}
